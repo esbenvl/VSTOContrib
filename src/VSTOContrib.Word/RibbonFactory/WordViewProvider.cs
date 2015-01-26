@@ -12,7 +12,7 @@ namespace VSTOContrib.Word.RibbonFactory
 {
     public class WordViewProvider : IViewProvider
     {
-        const string CaptionSuffix = " - Word";
+        const string CaptionSuffix = " - Microsoft Word";
         const string WordLpClassName = "OpusApp";
         private readonly List<int> closedDocuments = new List<int>();
         private readonly Dictionary<Document, List<OfficeWin32Window>> documents;
